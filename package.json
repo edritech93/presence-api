@@ -1,0 +1,31 @@
+{
+  "name": "presence-api",
+  "version": "1.0.0",
+  "description": "API for presence-mobile",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edritech93/presence-api.git"
+  },
+  "keywords": [
+    "presence",
+    "clocking",
+    "attendance"
+  ],
+  "author": "yudiedrialviska@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edritech93/presence-api/issues"
+  },
+  "homepage": "https://github.com/edritech93/presence-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

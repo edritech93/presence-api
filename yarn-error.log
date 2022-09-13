@@ -1,0 +1,52 @@
+Arguments: 
+  /Users/yudiedrialviska/.nvm/versions/node/v16.16.0/bin/node /Users/yudiedrialviska/.nvm/versions/node/v16.16.0/bin/yarn add express
+
+PATH: 
+  /Users/yudiedrialviska/.nvm/versions/node/v16.16.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/yudiedrialviska/.nvm/versions/node/v16.16.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/yudiedrialviska/Library/Android/sdk/emulator:/Users/yudiedrialviska/Library/Android/sdk/platform-tools:/Users/yudiedrialviska/Library/Android/sdk/emulator:/Users/yudiedrialviska/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: ETIMEDOUT
+      at Timeout._onTimeout (/Users/yudiedrialviska/.nvm/versions/node/v16.16.0/lib/node_modules/yarn/lib/cli.js:141550:19)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "presence-api",
+    "version": "1.0.0",
+    "description": "API for presence-mobile",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/edritech93/presence-api.git"
+    },
+    "keywords": [
+      "presence",
+      "clocking",
+      "attendance"
+    ],
+    "author": "yudiedrialviska@gmail.com",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/edritech93/presence-api/issues"
+    },
+    "homepage": "https://github.com/edritech93/presence-api#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
